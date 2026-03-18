@@ -82,16 +82,6 @@ npm install
 npm run dev
 ```
 
----
-
-## 📸 Preview
-
-<p align="center">
-  <img src="assets/demo.gif" width="80%" />
-</p>
-
----
-
 ## 🔮 Future Enhancements
 
 🚀 Voice Assistant Integration
