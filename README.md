@@ -1,173 +1,125 @@
-# AI Research Assistant
+<h1 align="center">🤖 AI RESEARCH ASSISTANT</h1>
 
-A powerful research assistant application that helps researchers, students, and academics streamline their research process with AI-powered tools.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=32&center=true&vCenter=true&width=900&lines=SYSTEM+ONLINE;AI+RESEARCH+ASSISTANT;SMART+ANALYSIS+ENGINE;POWERED+BY+AI" />
+</p>
 
-## Features
+<p align="center">
+  <img src="assets/ai-banner.gif" width="100%" />
+</p>
 
-### 🤖 AI Integration
-- **ChatGPT Integration**: Interactive AI chat for research assistance
-  - Real-time chat with context-aware responses
-  - Generate research insights on specific topics
-  - Automatic citation and reference generation
-  - Conversation history tracking
+<p align="center">
+  <b>⚡ [ AI CORE ACTIVE ] ⚡</b><br>
+  <i>Transforming Data into Intelligence • Faster • Smarter • Better</i>
+</p>
 
-### 📝 Note Management
-- Create, edit, and organize research notes
-- Rich text formatting
-- Automatic saving
-- Search and filter capabilities
+---
 
-### 📚 Citation Management
-- Store and organize citations
-- Multiple citation formats support
-- Source link management
-- Citation export functionality
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00ff88?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-POWERED-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NEXT.JS-14-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LICENSE-MIT-red?style=for-the-badge" />
+</p>
 
-### 📊 Research Tools
-- Text summarization
-- Research insights generation
-- Reference management
-- Academic writing assistance
+---
 
-## Tech Stack
+## 🚀 About The Project
 
-### Frontend
-- **Framework**: Next.js (React)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **State Management**: React Context
-- **UI Components**: Custom components with shadcn/ui
-- **API Integration**: Custom fetch wrapper with authentication
+> 🧠 A powerful AI-driven research assistant designed to automate analysis, generate insights, and accelerate productivity.
 
-### Backend
-- **Runtime**: Node.js
-- **Framework**: Express.js
-- **Language**: TypeScript
-- **Database**: MongoDB with Mongoose
-- **Authentication**: JWT (JSON Web Tokens)
-- **AI Integration**: OpenAI GPT-3.5 Turbo
+🔍 Whether you're a student, developer, or researcher — this system helps you:
 
-## Project Structure
+* Extract meaningful insights from data
+* Automate repetitive research tasks
+* Generate intelligent responses
+* Improve decision-making with AI
 
-### Frontend Structure
+---
+
+## ⚡ Core Features
+
+✨ Intelligent Query Processing
+📊 Data Analysis & Summarization
+🤖 AI-Powered Response Generation
+🧠 Memory System (Context Awareness)
+🌐 Web Search Integration *(optional)*
+📁 File & Document Handling
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology         | Role                |
+| ------------------ | ------------------- |
+| ⚛️ Next.js 14      | Frontend            |
+| 🟢 Node.js         | Backend             |
+| 🧠 Gemini / AI API | Intelligence Engine |
+| 🗄️ MongoDB        | Database            |
+| 🎨 Tailwind CSS    | UI                  |
+
+---
+
+## 🧩 System Architecture
+
+```mermaid
+graph TD;
+A[User Input] --> B[AI Processing Engine];
+B --> C[Memory System];
+B --> D[External APIs];
+B --> E[Response Generator];
+E --> F[User Output];
 ```
-frontend/
-├── app/               # Next.js app directory
-├── components/        # React components
-│   ├── pages/        # Page components
-│   └── ui/           # Reusable UI components
-├── lib/              # Utilities and API functions
-└── styles/           # Global styles
-```
 
-### Backend Structure
-```
-backend/
-├── src/
-│   ├── models/       # MongoDB models
-│   ├── routes/       # API routes
-│   ├── middleware/   # Express middleware
-│   └── index.ts      # Server entry point
-```
+---
 
-## API Endpoints
+## ⚙️ Installation & Setup
 
-### Authentication
-- POST `/api/auth/login` - User login
-- POST `/api/auth/register` - User registration
-
-### Notes
-- GET `/api/notes` - Get all notes
-- POST `/api/notes` - Create a note
-- PUT `/api/notes/:id` - Update a note
-- DELETE `/api/notes/:id` - Delete a note
-
-### Citations
-- GET `/api/citations` - Get all citations
-- POST `/api/citations` - Create a citation
-- PUT `/api/citations/:id` - Update a citation
-- DELETE `/api/citations/:id` - Delete a citation
-
-### ChatGPT Integration
-- POST `/api/chat` - Send message to ChatGPT
-- GET `/api/chat/history` - Get chat history
-- POST `/api/chat/research` - Generate research insights
-- POST `/api/chat/references` - Generate citations
-
-### Summarizer
-- POST `/api/summarize` - Summarize text
-
-## Setup and Installation
-
-1. Clone the repository
-\`\`\`bash
-git clone [repository-url]
-\`\`\`
-
-2. Install dependencies
-\`\`\`bash
-# Install backend dependencies
-cd backend
+```bash
+git clone https://github.com/your-username/ai-research-assistant.git
+cd ai-research-assistant
 npm install
-
-# Install frontend dependencies
-cd frontend
-npm install
-\`\`\`
-
-3. Configure environment variables
-
-Backend (.env):
-\`\`\`
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/ai-research-assistant
-FRONTEND_URL=http://localhost:3000
-JWT_SECRET=your-secret-key-here
-OPENAI_API_KEY=your-openai-api-key
-\`\`\`
-
-Frontend (.env.local):
-\`\`\`
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-\`\`\`
-
-4. Start the development servers
-
-Backend:
-\`\`\`bash
-cd backend
 npm run dev
-\`\`\`
+```
 
-Frontend:
-\`\`\`bash
-cd frontend
-npm run dev
-\`\`\`
+---
 
-## Authentication
+## 📸 Preview
 
-The application uses JWT (JSON Web Tokens) for authentication. All API endpoints except login and register require a valid JWT token in the Authorization header:
+<p align="center">
+  <img src="assets/demo.gif" width="80%" />
+</p>
 
-\`\`\`typescript
-Authorization: Bearer <token>
-\`\`\`
+---
 
-## Contributing
+## 🔮 Future Enhancements
+
+🚀 Voice Assistant Integration
+📡 Real-time Web Intelligence
+🧠 Advanced Memory & Personalization
+📱 Mobile App Version
+🛰️ Autonomous Research Mode
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions!
 
 1. Fork the repository
-2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
-4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+2. Create your feature branch
+3. Commit your changes
+4. Push to GitHub
 5. Open a Pull Request
 
-## License
+---
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📜 License
 
-## Acknowledgments
+MIT License © 2026
 
-- OpenAI for GPT-3.5 API
-- MongoDB for database
-- Next.js team for the amazing framework
-- shadcn/ui for beautiful UI components
+---
+
+<p align="center">
+  ⚡ Built with Passion • Powered by AI ⚡
+</p>
